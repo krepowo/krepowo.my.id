@@ -7,7 +7,7 @@
 	<title>KrepOwO</title>
 </head>
 
-<div id="background" class="min-h-screen w-screen bg-[url(bg.webp)] bg-cover fixed flex flex-col">
+<div id="background" class="min-h-screen w-screen bg-[url(https://cdn.krepowo.my.id/file/bg.webp)] bg-cover fixed flex flex-col">
 	<div id="isi" class="flex flex-col pt-10 pb-15 lg:pb-10 px-[1rem] md:px-[5rem] lg:px-[10rem] xl:px-[20rem] h-screen overflow-y-auto">
 		<nav class="flex flex-row p-3 rounded-xl items-center justify-between backdrop-blur-sm bg-white/5">
 			<a href="/" class="flex flex-row items-center space-x-3">
