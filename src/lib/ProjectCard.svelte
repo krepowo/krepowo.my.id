@@ -9,7 +9,7 @@
 
 <div id="project_card" class="w-full flex flex-col backdrop-blur-sm bg-white/5 p-3 rounded-xl text-white space-y-3">
 	<h1 class="font-bold md:text-lg lg:text-xl">{name}</h1>
-	<img src={imageLink} alt="Project's cover" class="max-w-80 rounded-xl aspect-video" />
+	<img src={imageLink} alt="Project's cover" class="w-full max-w-80 rounded-xl aspect-video object-cover mx-auto" />
 	<p class="text-sm lg:text-base leading-5">{description}</p>
 
 	<div class="flex space-x-3 mt-auto">
