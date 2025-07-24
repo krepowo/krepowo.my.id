@@ -38,6 +38,21 @@
 					link: 'https://discordapp.com/oauth2/authorize?client_id=936446020441755708&permissions=1074120776&scope=bot'
 				}
 			]
+		},
+		{
+			name: 'OwOTools Discord Bot',
+			description: 'OwOTools is a Discord bot that have many utility tools like media downloader, search engine, and many more unique tools!',
+			image: 'https://cdn.krepowo.my.id/file/owotools.gif',
+			links: [
+				{
+					name: 'Invite to Discord',
+					link: 'https://discord.com/oauth2/authorize?client_id=1395956065484537866&permissions=262144&integration_type=0&scope=applications.commands+bot'
+				},
+				{
+					name: 'GitHub',
+					link: 'https://github.com/krepowo/OwOTools'
+				}
+			]
 		}
 	];
 </script>
@@ -47,6 +62,12 @@
 		{#each projects as project}
 			<ProjectCard imageLink={project.image} name={project.name} description={project.description} links={project.links} />
 		{/each}
+	</div>
+
+	<div class="flex flex-col items-center justify-center w-full mt-10">
+		<a href="https://github.com/krepowo?tab=repositories" target="_blank" class="backdrop-blur-sm bg-white/5 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition-colors duration-300">
+			<p>More Project</p>
+		</a>
 	</div>
 
 	<div class="lg:hidden w-full py-3 left-0 text-white backdrop-blur-sm bg-white/5 rounded-xl text-sm mt-auto">
