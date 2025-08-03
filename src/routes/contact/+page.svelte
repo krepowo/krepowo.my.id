@@ -18,7 +18,7 @@
 	<p>Feel free to send me a DM in Discord or send me an Email.</p>
 	<ul>
 		<li class="flex space-x-1 items-center">
-			<p>- Discord: <button class="font-medium hover:bg-black/50 p-1 rounded-lg duration-200 hover:cursor-pointer" onclick={() => copy('@krepowo')}>@krepowo</button></p>
+			<p>- Discord: <button class="font-medium hover:bg-black/50 p-1 rounded-lg duration-200 hover:cursor-pointer" onclick={() => copy("@krepowo")}>@krepowo</button></p>
 			<p class="bg-white/15 p-1 rounded-lg duration-200 transition-opacity ease-in-out text-sm {showed ? 'opacity-100' : 'opacity-0'}">Copied!</p>
 		</li>
 		<li class="items-center">

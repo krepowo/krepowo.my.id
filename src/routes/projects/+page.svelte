@@ -1,56 +1,56 @@
 <script>
-	import ProjectCard from '$lib/ProjectCard.svelte';
+	import ProjectCard from "$lib/ProjectCard.svelte";
 
 	const projects = [
 		{
-			name: 'osu2Discord',
-			description: 'Send osu! in-game chats to a Discord channel.',
-			image: 'https://cdn.krepowo.my.id/file/osu2discord.png',
+			name: "osu2Discord",
+			description: "Send osu! in-game chats to a Discord channel.",
+			image: "https://cdn.krepowo.my.id/file/osu2discord.png",
 			links: [
 				{
-					name: 'GitHub',
-					link: 'https://github.com/krepowo/osu2discord'
+					name: "GitHub",
+					link: "https://github.com/krepowo/osu2discord"
 				}
 			]
 		},
 		{
-			name: 'IP Lookup Telegram Bot',
-			description: 'Lookup details about an IP address including location, ISP, and more. Trace, Track and Locate an IP address.',
-			image: 'https://cdn.krepowo.my.id/file/iplookuptg.png',
+			name: "IP Lookup Telegram Bot",
+			description: "Lookup details about an IP address including location, ISP, and more. Trace, Track and Locate an IP address.",
+			image: "https://cdn.krepowo.my.id/file/iplookuptg.png",
 			links: [
 				{
-					name: 'GitHub',
-					link: 'https://github.com/krepowo/IP-Lookup-TG'
+					name: "GitHub",
+					link: "https://github.com/krepowo/IP-Lookup-TG"
 				},
 				{
-					name: 'Open in Telegram',
-					link: 'https://t.me/lookup_ip_bot'
+					name: "Open in Telegram",
+					link: "https://t.me/lookup_ip_bot"
 				}
 			]
 		},
 		{
-			name: 'Network Utils Discord Bot',
-			description: 'A Discord bot that provides network utilities such as DNS Lookup, Domain WHOIS, IP Lookup, and more.',
-			image: 'https://cdn.krepowo.my.id/file/networkutils.png',
+			name: "Network Utils Discord Bot",
+			description: "A Discord bot that provides network utilities such as DNS Lookup, Domain WHOIS, IP Lookup, and more.",
+			image: "https://cdn.krepowo.my.id/file/networkutils.png",
 			links: [
 				{
-					name: 'Invite to Discord',
-					link: 'https://discordapp.com/oauth2/authorize?client_id=936446020441755708&permissions=1074120776&scope=bot'
+					name: "Invite to Discord",
+					link: "https://discordapp.com/oauth2/authorize?client_id=936446020441755708&permissions=1074120776&scope=bot"
 				}
 			]
 		},
 		{
-			name: 'OwOTools Discord Bot',
-			description: 'OwOTools is a Discord bot that have many utility tools like media downloader, search engine, and many more unique tools!',
-			image: 'https://cdn.krepowo.my.id/file/owotools.gif',
+			name: "OwOTools Discord Bot",
+			description: "OwOTools is a Discord bot that have many utility tools like media downloader, search engine, and many more unique tools!",
+			image: "https://cdn.krepowo.my.id/file/owotools.gif",
 			links: [
 				{
-					name: 'Invite to Discord',
-					link: 'https://discord.com/oauth2/authorize?client_id=1395956065484537866&permissions=262144&integration_type=0&scope=applications.commands+bot'
+					name: "Invite to Discord",
+					link: "https://discord.com/oauth2/authorize?client_id=1395956065484537866&permissions=262144&integration_type=0&scope=applications.commands+bot"
 				},
 				{
-					name: 'GitHub',
-					link: 'https://github.com/krepowo/OwOTools'
+					name: "GitHub",
+					link: "https://github.com/krepowo/OwOTools"
 				}
 			]
 		}

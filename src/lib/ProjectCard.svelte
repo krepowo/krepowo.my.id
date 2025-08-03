@@ -1,9 +1,9 @@
 <script>
 	// @ts-nocheck
 
-	export let imageLink = '';
-	export let name = '';
-	export let description = '';
+	export let imageLink = "";
+	export let name = "";
+	export let description = "";
 	export let links = [];
 </script>
 

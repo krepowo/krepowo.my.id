@@ -1,155 +1,155 @@
 <script>
 	const socials = [
 		{
-			name: 'Instagram',
-			url: 'https://instagram.com/krepowo',
-			icon: '/instagram.png'
+			name: "Instagram",
+			url: "https://instagram.com/krepowo",
+			icon: "/instagram.png"
 		},
 		{
-			name: 'X / Twitter',
-			url: 'https://twitter.com/Qwerty_Krep',
-			icon: '/x.png'
+			name: "X / Twitter",
+			url: "https://twitter.com/Qwerty_Krep",
+			icon: "/x.png"
 		},
 		{
-			name: 'GitHub',
-			url: 'https://github.com/krepowo',
-			icon: '/github.png'
+			name: "GitHub",
+			url: "https://github.com/krepowo",
+			icon: "/github.png"
 		},
 		{
-			name: 'YouTube',
-			url: 'https://www.youtube.com/@krepowo',
-			icon: '/youtube.png'
+			name: "YouTube",
+			url: "https://www.youtube.com/@krepowo",
+			icon: "/youtube.png"
 		},
 		{
-			name: 'Steam',
-			url: 'https://steamcommunity.com/id/krepowo',
-			icon: '/steam.png'
+			name: "Steam",
+			url: "https://steamcommunity.com/id/krepowo",
+			icon: "/steam.png"
 		}
 	];
 
 	const progLanguage = [
 		{
-			name: 'JavaScript',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
-			url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+			name: "JavaScript",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+			url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 		},
 		{
-			name: 'Python',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
-			url: 'https://www.python.org/'
+			name: "Python",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+			url: "https://www.python.org/"
 		},
 		{
-			name: 'TypeScript',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
-			url: 'https://www.typescriptlang.org/'
+			name: "TypeScript",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+			url: "https://www.typescriptlang.org/"
 		}
 	];
 
 	const frontEnd = [
 		{
-			name: 'Svelte',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg',
-			url: 'https://svelte.dev/'
+			name: "Svelte",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+			url: "https://svelte.dev/"
 		},
 		{
-			name: 'React',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
-			url: 'https://react.dev/'
+			name: "React",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+			url: "https://react.dev/"
 		},
 		{
-			name: 'TailwindCSS',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
-			url: 'https://tailwindcss.com/'
+			name: "TailwindCSS",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+			url: "https://tailwindcss.com/"
 		},
 		{
-			name: 'NextJS',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
-			url: 'https://nextjs.org/'
+			name: "NextJS",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			url: "https://nextjs.org/"
 		},
 		{
-			name: 'HTML',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
-			url: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
+			name: "HTML",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+			url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
 		},
 		{
-			name: 'CSS',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
-			url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+			name: "CSS",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+			url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
 		}
 	];
 
 	const backEnd = [
 		{
-			name: 'Node.js',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
-			url: 'https://nodejs.org/'
+			name: "Node.js",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+			url: "https://nodejs.org/"
 		},
 		{
-			name: 'Express',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
-			url: 'https://expressjs.com/'
+			name: "Express",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+			url: "https://expressjs.com/"
 		},
 		{
-			name: 'Prisma',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg',
-			url: 'https://www.prisma.io/'
+			name: "Prisma",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
+			url: "https://www.prisma.io/"
 		},
 		{
-			name: 'Drizzle',
-			icon: '/drizzle.png',
-			url: 'https://orm.drizzle.team/'
+			name: "Drizzle",
+			icon: "/drizzle.png",
+			url: "https://orm.drizzle.team/"
 		},
 		{
-			name: 'MySQL',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg',
-			url: 'https://www.mysql.com/'
+			name: "MySQL",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+			url: "https://www.mysql.com/"
 		},
 		{
-			name: 'PostgreSQL',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
-			url: 'https://www.postgresql.org/'
+			name: "PostgreSQL",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+			url: "https://www.postgresql.org/"
 		},
 		{
-			name: 'MongoDB',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
-			url: 'https://www.mongodb.com/'
+			name: "MongoDB",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+			url: "https://www.mongodb.com/"
 		}
 	];
 	const tools = [
 		{
-			name: 'Git',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
-			url: 'https://git-scm.com/'
+			name: "Git",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+			url: "https://git-scm.com/"
 		},
 		{
-			name: 'Docker',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
-			url: 'https://www.docker.com/'
+			name: "Docker",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+			url: "https://www.docker.com/"
 		},
 		{
-			name: 'Vercel',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg',
-			url: 'https://vercel.com/'
+			name: "Vercel",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+			url: "https://vercel.com/"
 		},
 		{
-			name: 'Netlify',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg',
-			url: 'https://www.netlify.com/'
+			name: "Netlify",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
+			url: "https://www.netlify.com/"
 		},
 		{
-			name: 'VSCode',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg',
-			url: 'https://code.visualstudio.com/'
+			name: "VSCode",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+			url: "https://code.visualstudio.com/"
 		},
 		{
-			name: 'Ubuntu',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg',
-			url: 'https://ubuntu.com/'
+			name: "Ubuntu",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg",
+			url: "https://ubuntu.com/"
 		},
 		{
-			name: 'Windows',
-			icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg',
-			url: 'https://www.microsoft.com/windows/'
+			name: "Windows",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg",
+			url: "https://www.microsoft.com/windows/"
 		}
 	];
 </script>
