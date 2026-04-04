@@ -5,7 +5,7 @@
 		{
 			name: "osu2Discord",
 			description: "Send osu! in-game chats to a Discord channel.",
-			image: "https://cdn.krepowo.my.id/file/osu2discord.png",
+			image: ["https://cdn.krepowo.my.id/file/osu2discord.png"],
 			links: [
 				{
 					name: "GitHub",
@@ -16,7 +16,7 @@
 		{
 			name: "IP Lookup Telegram Bot",
 			description: "Lookup details about an IP address including location, ISP, and more. Trace, Track and Locate an IP address.",
-			image: "https://cdn.krepowo.my.id/file/iplookuptg.png",
+			image: ["https://cdn.krepowo.my.id/file/iplookuptg.png"],
 			links: [
 				{
 					name: "GitHub",
@@ -31,7 +31,7 @@
 		{
 			name: "Network Utils Discord Bot",
 			description: "A Discord bot that provides network utilities such as DNS Lookup, Domain WHOIS, IP Lookup, and more.",
-			image: "https://cdn.krepowo.my.id/file/networkutils.png",
+			image: ["https://cdn.krepowo.my.id/file/networkutils.png"],
 			links: [
 				{
 					name: "Invite to Discord",
@@ -42,7 +42,7 @@
 		{
 			name: "OwOTools Discord Bot",
 			description: "OwOTools is a Discord bot that have many utility tools like media downloader, search engine, and many more unique tools!",
-			image: "https://cdn.krepowo.my.id/file/owotools.gif",
+			image: ["https://cdn.krepowo.my.id/file/owotools.gif"],
 			links: [
 				{
 					name: "Invite to Discord",
@@ -53,6 +53,18 @@
 					link: "https://github.com/krepowo/OwOTools"
 				}
 			]
+		},
+		{
+			name: "Freegame Notification Bot",
+			description: "A discord bot that send a notification when there's a free game in Steam/Epic Games",
+			image: ["https://cdn.krepowo.my.id/files/Discord_um8noT8k1P.png", "https://cdn.krepowo.my.id/files/Discord_4lFlUYVY8k.png"],
+			links: []
+		},
+		{
+			name: "Server Feedback Bot",
+			description: "A discord bot for receiving server member's feedback.",
+			image: ["https://cdn.krepowo.my.id/files/Discord_cJHzali350.png", "https://cdn.krepowo.my.id/files/Discord_Wb6bnQdBSV.png", "https://cdn.krepowo.my.id/files/Discord_YRCxAsTswe.png", "https://cdn.krepowo.my.id/files/Discord_3Bwd1jD6y8.png"],
+			links: []
 		}
 	];
 </script>
@@ -66,7 +78,7 @@
 
 	<div class="flex flex-col items-center justify-center w-full mt-10">
 		<a href="https://github.com/krepowo?tab=repositories" target="_blank" class="backdrop-blur-sm bg-white/5 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition-colors duration-300">
-			<p>More Project</p>
+			<p>More Projects...</p>
 		</a>
 	</div>
 

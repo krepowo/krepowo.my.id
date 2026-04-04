@@ -176,14 +176,17 @@
 				</a>
 			{/each}
 		</div>
-		<div class="flex justify-center">
+		<div class="flex justify-center flex-col lg:flex-row">
 			<a href="https://discord.com/users/620393180168323082" class="flex items-center justify-center duration-200 hover:bg-black/50 p-2 rounded-xl" target="_blank">
 				<img src="https://discord.c99.nl/widget/theme-4/620393180168323082.png" alt="My Discord Banner" />
+			</a>
+			<a href="https://osu.ppy.sh/users/23622091" class="flex items-center justify-center duration-200 hover:bg-black/50 p-2 rounded-xl" target="_blank">
+				<img src="https://osu-sig.vercel.app/card?user=Kuda%20Terbang&mode=std&lang=en&blur=6&animation=true&mini=true" alt="osu! Banner" />
 			</a>
 		</div>
 	</div>
 
-	<div class="p-3 rounded-xl text-white backdrop-blur-sm space-y-3 bg-white/5">
+	<!-- <div class="p-3 rounded-xl text-white backdrop-blur-sm space-y-3 bg-white/5">
 		<h1 class="text-white font-bold lg:text-xl">Language and Tools</h1>
 
 		<div class="w-full flex lg:flex-col flex-col justify-center space-y-3 lg:space-y-3 p-3">
@@ -232,7 +235,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="lg:hidden w-full py-3 left-0 text-white backdrop-blur-sm bg-white/5 rounded-xl text-sm mt-auto">
 		<div class="flex flex-col items-center">
