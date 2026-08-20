@@ -65,6 +65,17 @@
 			description: "A discord bot for receiving server member's feedback.",
 			image: ["https://cdn.krepowo.my.id/files/Discord_cJHzali350.png", "https://cdn.krepowo.my.id/files/Discord_Wb6bnQdBSV.png", "https://cdn.krepowo.my.id/files/Discord_YRCxAsTswe.png", "https://cdn.krepowo.my.id/files/Discord_3Bwd1jD6y8.png"],
 			links: []
+		},
+		{
+			name: "SquishVid",
+			description: "Free, fast, and fully private video compression. No uploads, no accounts everything runs locally on your browsers.",
+			image: ["https://cdn.krepowo.my.id/files/brave_7n0lC5wa3v.png"],
+			links: [
+				{
+					name: "Visit",
+					link: "https://squishvid.pages.dev"
+				}
+			]
 		}
 	];
 </script>
