@@ -76,6 +76,17 @@
 					link: "https://squishvid.pages.dev"
 				}
 			]
+		},
+		{
+			name: "osu! Beatmap Card",
+			description: "Get an image card for your osu! Beatmap",
+			image: ["https://cdn.krepowo.my.id/files/screenshot-2026-10-26-091639.png", "https://cdn.krepowo.my.id/files/beatmap-75-osucard%20%281%29.png", "https://cdn.krepowo.my.id/files/beatmap-75-poster.png", "https://cdn.krepowo.my.id/files/beatmap-75-glow.png"],
+			links: [
+				{
+					name: "Visit",
+					link: "https://cards.krepowo.my.id"
+				}
+			]
 		}
 	];
 </script>
